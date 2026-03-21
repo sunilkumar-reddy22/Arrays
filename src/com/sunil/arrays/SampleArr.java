@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SampleArr {
     public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
+        System.out.println("enter nums: ");
         int [] arr = new int[5];
          arr [0] = 10;
          arr [1] = 20;
