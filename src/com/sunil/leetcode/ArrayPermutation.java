@@ -2,7 +2,7 @@ package com.sunil.leetcode;
 import java.util.Arrays;
 public class ArrayPermutation {
     public static void main(String[] args) {
-        int [] arr = {0,2,1,5,3,4};
+        int [] arr = {0,2,3,5,2,4};
         System.out.println(Arrays.toString(change(arr)));
     }
     static int [] change(int [] nums){
