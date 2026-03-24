@@ -7,14 +7,15 @@ public class RemoveElement {
         change(arr,val);
         System.out.println(Arrays.toString((arr)));
     }
-    static int change(int [] nums,int val){
-    int k = 0;
-    for(int i = 0; i <nums.length; i++) {
-        if (nums[i] != val) {
-            nums[k] = nums[i];
-            k++;
+    static int change(int [] nums,int val) {
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[k] = nums[i];
+                k++;
+            }
         }
+        return k;
     }
-    return k;
-    }
+
 }
