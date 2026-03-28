@@ -4,7 +4,6 @@ public class AveragEvenNums {
     public static void main(String[] args) {
     int [] arr = {10,55,60,23,88,41};
     Findeven(arr);
-
     }
     static void Findeven(int [] nums){
     int sum = 0;
@@ -23,6 +22,5 @@ public class AveragEvenNums {
         System.out.println("Count = " + count);
         System.out.println("Sum = " + sum);
         System.out.println("Average = " + average);
-
     }
 }
