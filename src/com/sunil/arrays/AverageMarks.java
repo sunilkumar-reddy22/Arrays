@@ -5,11 +5,11 @@ public class AverageMarks {
         nums(marks);
     }
     static void  nums(int [] sum) {
-        int result = 0;
+        double  result = 0;
         for (int i = 0; i < sum.length; i++) {
             result = result + sum[i];
         }
-        double average = result / sum.length;
+        double average =  result / sum.length;
         System.out.println("Average = " + average);
     }
 
