@@ -16,6 +16,7 @@ public class AverageofgreaterNums {
     }
     if(count == 0) {
         System.out.println("No values found");
+        return;
     }
     double average = (double) sum / count;
         System.out.println("Sum = " + sum);
