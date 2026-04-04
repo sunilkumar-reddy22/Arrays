@@ -2,6 +2,7 @@ package com.sunil.arrays;
 import java.util.Scanner;
 public class MatrixdimensionalArray {
     public static void main(String[] args) {
+        System.out.println("Enter Nums: ");
         Scanner in = new Scanner(System.in);
         int [] [] arr = new int [3] [3];
             Matrix(arr,in);
