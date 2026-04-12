@@ -5,7 +5,6 @@ public class GreatnumsEven {
         int[] nums = {3, 2, 4, 7, 46,50, 67, 89, 94};
         even(nums);
     }
-
     static void even(int[] nums) {
         int sum = 0;
         int count = 0;
@@ -17,12 +16,12 @@ public class GreatnumsEven {
         }
         if(count == 0) {
             System.out.println("No value found");
+            return;
         }
         double average = (double) sum / count;
         System.out.println("Average =  " + average);
         System.out.println("Sum = " + sum);
         System.out.println("count = " + count);
-
 
     }
 
