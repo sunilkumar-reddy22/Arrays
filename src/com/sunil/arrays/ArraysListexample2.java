@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ArraysListexample2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        ArrayList<ArrayList<Integer>>  list = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
         for (int i = 0; i < 3; i++) {
             list.add(new ArrayList<>());
@@ -17,5 +17,4 @@ public class ArraysListexample2 {
         }
         System.out.println(list);
     }
-
 }
