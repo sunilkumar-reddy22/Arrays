@@ -18,7 +18,7 @@ public class AveragEvenNums {
         System.out.println("no even number found");
         return;
     }
-   double average = (double) sum / count;
+   double average =  sum / count;
         System.out.println("Count = " + count);
         System.out.println("Sum = " + sum);
         System.out.println("Average = " + average);
