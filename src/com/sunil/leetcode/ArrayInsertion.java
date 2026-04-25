@@ -11,11 +11,11 @@ public class ArrayInsertion {
     static int [] shift(int [] nums,int [] index) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
-            list.add(index[i], nums[i]);
+            list.add(index[i], nums[i]);   //changing the values through indices
         }
-        int [] target = new int [nums.length];
+        int [] target = new int [nums.length];     //creating new array to store new elements.
         for(int i = 0; i < nums.length; i++) {
-            target[i] = list.get(i);
+            target[i] = list.get(i);   //storing in target array.
         }
         return target;
     }
