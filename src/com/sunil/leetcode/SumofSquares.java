@@ -2,7 +2,7 @@ package com.sunil.leetcode;
 //finding the square root of given integer via comparing sum.
 public class SumofSquares {
     public static void main(String[] args) {
-        int c = 5;        //a + b = c is finding sqaure
+        int c = 2;        //a + b = c is finding sqaure
         boolean result = Find(c);
         System.out.println(result);
     }
