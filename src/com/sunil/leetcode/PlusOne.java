@@ -15,6 +15,7 @@ public class PlusOne {
          }
          digits[i] = 0;
      }
+     // in the inouts are 999 then it turns 1000. for the edge cases.
      int [] result = new int [digits.length +1];
      result[0] = 1;
      return result;
