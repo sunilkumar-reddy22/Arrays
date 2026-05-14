@@ -2,8 +2,8 @@ package com.sunil.leetcode;
 import java.util.Arrays;
 public class FindingfirstandLast {
     public static  void main(String[] args) {
-        int [] nums = {5,7,7,8,8,9};
-        int target = 8;
+        int [] nums = {5,7,7,7,9};
+        int target = 7;
       int first =  Findfirst(nums,target);
       int last =  Findlast(nums,target);
       int [] result = {first,last};
@@ -34,7 +34,7 @@ public class FindingfirstandLast {
     //finding last digit.
   private  static int Findlast(int [] nums, int target) {
         int left = 0;
-        int right = nums.length;
+        int right = nums.length -1;
         int ans = -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
